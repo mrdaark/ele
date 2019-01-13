@@ -1,0 +1,135 @@
+body {
+    background: #f1f6ff;
+    font-size: 14px;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    height: 200px;
+    background: #b2cfff;
+    background-image: linear-gradient(to top,#4dcde4 0%,#086ca6 100%);
+    padding: 0;
+    border-radius: 5px;
+    border-bottom-right-radius: 30px;
+}
+
+#header__container {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#logo {
+    background: url(/img/logo.png) no-repeat;
+    background-size: 100%;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    float: left;
+    display: block;
+    margin: 5px;
+}
+
+#header_text {
+    text-align: left;
+    float: left;
+    width: 780px;
+    line-height: 200px;
+    padding: 0;
+}
+#header_text a, #header_text a:visited, #header_text a:active, #header_text a:hover{
+    text-decoration: none;
+    margin-left: 100px;
+}
+#header_text h1 {
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Shadows Into Light', cursive;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    color: white;    
+
+}
+
+#container {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#nav {
+    width: 250px;
+    float:left;
+    margin: 0 10px 0 0; 
+    min-height: 300px;
+    background: #4dcde4;
+    background-image: linear-gradient(to bottom,#4dcde4 0%,#086ca6 100%);
+    color:white;
+    text-align: center;
+    border-radius: 5px;
+    border-bottom-left-radius: 30px;
+}
+
+#nav h3 {
+    font-size:20px;
+    font-weight: bold;
+}
+
+#menu {
+    text-align: left;
+    font-size:16px;
+}
+
+#menu li {
+    list-style: none;
+}
+
+#menu li a, #menu li a:visited, #menu li a:active {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+    font-weight: bold;
+}
+
+#menu li a:hover {
+    text-decoration: underline;
+    color: #f0f0f0;
+}
+
+#main {
+    float: left;
+    margin: 0;
+    padding:5px 20px;
+    width: 700px;
+    background: #ffffff;
+    min-height: 500px;
+    background-image: linear-gradient(to bottom,#f4f4ff 0%,#d4eaf7 100%);
+    font-size: 18px;
+    text-align: justify;
+    border-bottom-right-radius: 30px;
+}
+
+#main .curly {
+    font-family: 'Vibur', cursive;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+
+#footer {   
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    background: #d4eaf7;
+}
+
+#footer__main {
+    width: 1000px;
+    margin: 0 auto;
+}
