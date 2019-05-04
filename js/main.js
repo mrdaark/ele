@@ -7,14 +7,7 @@
         
         divMain = document.querySelector('#main');
 
-        if (window.location.hash==='' || window.location.hash==='#')
-        {
-            page = 'main';
-        }
-        else
-        {
-            page = window.location.hash.slice(1);
-        }
+        page = ((window.location.hash==='' || window.location.hash==='#')) ? 'main':page = window.location.hash.slice(1);
 
         const getContent = (page) => {
             let xhr = new XMLHttpRequest();
